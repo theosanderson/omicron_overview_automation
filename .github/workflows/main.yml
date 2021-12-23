@@ -20,6 +20,7 @@ jobs:
         python-version: 3.8
     - name: Do everything
       run: |
+        pip3 install requests
         python3 scan.py
     - uses: EndBug/add-and-commit@v7
       with:
