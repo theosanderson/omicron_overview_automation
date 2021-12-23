@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: "*/5 15,16,17,18,19,20,21,22,23 * * *"
+    - cron: "*/10 15,16,17,18,19,20,21,22,23 * * *"
 
 
 jobs:
