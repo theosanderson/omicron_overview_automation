@@ -17,7 +17,7 @@ import sys
 last_asset_file = open("last_asset_number.txt", "rt")
 
 starting_asset_number = int(last_asset_file.read())
-number_to_try = 5000
+number_to_try = 500
 
 
 def scan():
